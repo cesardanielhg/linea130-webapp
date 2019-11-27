@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+		<title>APP</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="css/menu.css" />
+		<style type="text/css">
+			article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline;zoom:1}audio:not([controls]){display:none;height:0}[hidden]{display:none}html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-size:100%}button,html,input,select,textarea{font-family:sans-serif}body{font-family:Helvetica;margin:0}nav:not(.mm){display:none}body{font-family:Roboto}.header{background:#1f88e4;font-size:16px;font-weight:700;color:#fff;line-height:50px;box-shadow:0 2px 15px #333;-moz-box-sizing:border-box;box-sizing:border-box;width:100%;height:50px;padding:0 50px}.header.fixed{position:fixed;top:0;left:0;z-index:9}.header a{display:block;width:28px;height:18px;padding:11px;margin:5px;position:absolute;top:0;left:0}.header a:after,.header a:before{content:'';display:block;background:#fff;height:2px}.header .logo{margin-left:20px}.header a span{background:#fff;display:block;height:2px;margin:6px 0}#one{width:100%;height:35%;position:fixed;top:50px;background:#6bc1fc;background-image: url("img/tvsc-bgtop.jpg");background-size: cover;border-bottom:solid 25px #6bc1fc}#one .avatar{width:150px;height:150px ;background-image: url("img/logo.png");background-size: cover;background-repeat: no-repeat;margin:auto;position:absolute;top:0;bottom:0;left:0;right:0;border-radius:100px;border: 25px solid rgba(255, 255, 255, .5);box-shadow:0 0 6px #222}#two{width:100%;height:50%;position:fixed;background:#7fb5d9;bottom:50px}#two .button1{position:relative;float:left;width:50%;height:43%;background:#96cdf3 url(img/speaker.png) no-repeat center center;background-size:40px}#two .button1 span{width:100%;text-align:center;position:absolute;float:left;color:#fff;font:bold 18px roboto;bottom:16%}#two .button2{position:relative;float:left;width:50%;height:43%;background:#7fb5d9 url(img/warning.png) no-repeat center center;background-size:40px}#two .button2 span{width:100%;text-align:center;position:absolute;float:left;color:#fff;font:bold 18px roboto;bottom:16%}#two .button3{position:relative;float:left;width:50%;height:42%;background:#add9f6 url(img/document.png) no-repeat center center;background-size:40px}#two .button3 span{width:100%;text-align:center;position:absolute;float:left;color:#fff;font:bold 18px roboto;bottom:16%}#two .button4{position:relative;float:left;width:50%;height:42%;background:#6fc1f9 url(img/idea.png) no-repeat center center;background-size:40px}#two .button4 span{width:100%;text-align:center;position:absolute;float:left;color:#fff;font:bold 18px roboto;bottom:16%}#page-box{width:100%;height:auto;min-height:800px;position:relative;background:#fff;margin-top:90%;padding-bottom:20px}#page-box h1{font:bold 30px/36px Roboto;margin:10px 2%;float:left;position:relative;width:96%}#page-box p{font:500 18px/1.4em Roboto;float:left;position:relative;width:96%;margin:0 2% 1.4em}footer{background:#288ae1;font-size:16px;font-weight:700;color:#fff;line-height:50px;-moz-box-sizing:border-box;box-sizing:border-box;width:100%;height:50px;position:fixed;bottom:0}footer .button{width:33%;height:50px;border-right:1px solid #6fc2f8;float:left;margin:0}footer .button:last-child{border-right:none}footer .home{background:url(img/home.png) no-repeat center center;background-size:30px}footer .info{background:url(img/info.png) no-repeat center center;background-size:30px}footer .help{background:url(img/help.png) no-repeat center center;background-size:30px}#two h1{font: bold 26px/40px Roboto;padding: 10px 3%;float: left;position: relative;width: 94%;background: #1f88e4;color: #fff;position: sticky !important;top: 250px;margin: 0;z-index: 99;box-shadow: 0px 5px 10px #999;height: 40px;text-align: center;vertical-align: middle;}#chat{width: 50px; height: 50px; border-radius: 30px; background: #fff; box-shadow: 1px 1px 5px #999; position: fixed; bottom: 70px; right: 20px;background: #f00 url(img/chat.png) no-repeat center;background-size: 30px;}
+		</style>
+	</head>
+	<body>
+		<div id="page">
+			<div class="header fixed"><a href="#menu"><span></span></a><span class="logo">Línea 130</span>
+			  <nav id="menu">
+					<ul>
+						<li class="Selected"><a href="index.html">Home</a></li>
+						<li class="Selected"><a href="page.html">Item 2</a></li>
+						<li class="Selected"><a href="page.html">Item 3</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			
+			<div id="one">
+				<div class="avatar"></div>
+			</div>
+			<div id="two">
+			  <h1>¿Qué desea Realizar?</h1>
+			  <a href="page.html" class="button1"><span>Denuncias</span></a>
+				<a href="page.html" class="button2"><span>Quejas</span></a>
+				<a href="page.html" class="button3"><span>Reclamos</span></a>
+				<a href="page.html" class="button4"><span>Sugerencias</span></a>
+			</div>
+				
+
+		</div>
+		<footer>
+			<a href="index.html"  class="button home"></a>
+			<a href="page.html"  class="button info"></a>
+			<a href="page.html"  class="button help"></a>
+		</footer>
+		<a href="#" id="chat"></a>
+		<script src="js/menu.js"></script>
+		<script>
+			const menu=new MmenuLight(document.querySelector("#menu"),{title:"Menu",theme:"dark",selected:"Selected"});menu.enable("all"),menu.offcanvas({position:"left",move:!0,blockPage:!0}),document.querySelector('a[href="#menu"]').addEventListener("click",e=>{menu.open(),e.preventDefault(),e.stopPropagation()});
+		</script>
+	</body>
+</html>
