@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.appherolocal.com" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Línea 130</name>
+<widget id="com.applinea130.com" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Linea130</name>
     <description>
-        Plataforma de denuncia ciudadana.
+        A sample Apache Cordova application that responds to the deviceready event.
     </description>
     <author email="dev@cordova.apache.org" href="http://cordova.io">
-       SCGG
+        Apache Cordova Team
     </author>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
@@ -18,22 +18,23 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
-        <splash src="img/screen.jpg" density="land-hdpi"/>
-        <splash src="img/screen.jpg" density="land-ldpi"/>
-        <splash src="img/screen.jpg" density="land-mdpi"/>
-        <splash src="img/screen.jpg" density="land-xhdpi"/>
+        
+        <icon src="logo.png" density="ldpi" />
+        <icon src="logo.png" density="mdpi" />
+        <icon src="logo.png" density="hdpi" />
+        <icon src="logo.png" density="xhdpi" />
+        <icon src="logo.png" density="xxhdpi" />
+        <icon src="logo.png" density="xxxhdpi" />
 
-        <splash src="img/screen.jpg" density="port-hdpi"/>
-        <splash src="img/screen.jpg" density="port-ldpi"/>
-        <splash src="img/screen.jpg" density="port-mdpi"/>
-        <splash src="img/screen.jpg" density="port-xhdpi"/>
-    </platform>
-    <platform name="android" />
-        <preference name="SplashScreen" value="img/screen.jpg" />
-        <preference name="SplashScreenDelay" value="10000" />
-        <preference name="ShowSplashScreenSpinner" value="false" />
-        <preference name="AutoHideSplashScreen" value="true" />
-        <preference name="FadeSplashScreen" value="false" />
+        <splash src="screen.jpg" density="land-hdpi"/>
+        <splash src="screen.jpg" density="land-ldpi"/>
+        <splash src="screen.jpg" density="land-mdpi"/>
+        <splash src="screen.jpg" density="land-xhdpi"/>
+
+        <splash src="screen.jpg" density="port-hdpi"/>
+        <splash src="screen.jpg" density="port-ldpi"/>
+        <splash src="screen.jpg" density="port-mdpi"/>
+        <splash src="screen.jpg" density="port-xhdpi"/>
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
